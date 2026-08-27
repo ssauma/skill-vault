@@ -2,9 +2,15 @@
 
 English | [Korean](README.ko.md)
 
-Skill Vault measures the context used by Agent Skill discovery and isolates only user-approved standalone Codex skills behind reversible, explicit-only proxies. Existing `$skill-name` invocation remains unchanged.
+Skill Vault is an open-source CLI and Agent Skill context manager for OpenAI Codex and Claude Code. It audits skill discovery metadata and context-window overhead, then—on Codex—isolates only user-approved standalone skills behind reversible, explicit-only, on-demand loading proxies. Existing `$skill-name` invocation remains unchanged.
 
 Codex already uses progressive disclosure: full `SKILL.md` bodies are loaded on activation, not at session start. Skill Vault therefore reports many large skills as **no action needed** and recommends isolation only when discovery metadata itself is costly.
+
+Use Skill Vault to:
+
+- audit installed Agent Skills for discovery metadata and context overhead;
+- preserve direct skill triggers while loading approved instructions on demand;
+- roll back every owned proxy and configuration change without modifying the original skill.
 
 ## Requirements
 
