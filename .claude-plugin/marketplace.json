@@ -1,0 +1,19 @@
+{
+  "name": "skill-vault",
+  "owner": { "name": "Kai" },
+  "description": "Read-only context diagnostics and approved reversible isolation for Agent Skills.",
+  "plugins": [
+    {
+      "name": "skill-vault",
+      "source": "./plugins/skill-vault",
+      "description": "Diagnose skill discovery context without changing invocation names.",
+      "version": "0.1.0",
+      "author": { "name": "Kai" },
+      "homepage": "https://github.com/ssauma/skill-vault",
+      "repository": "https://github.com/ssauma/skill-vault",
+      "license": "MIT",
+      "keywords": ["agent-skills", "codex", "context-window", "skill-management"],
+      "category": "development"
+    }
+  ]
+}

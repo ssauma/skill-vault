@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "skill-vault",
+  "displayName": "Skill Vault",
+  "description": "Diagnose skill discovery context and manage user-approved reversible isolation.",
+  "version": "0.1.0",
+  "author": { "name": "Kai", "url": "https://github.com/ssauma" },
+  "homepage": "https://github.com/ssauma/skill-vault",
+  "repository": "https://github.com/ssauma/skill-vault",
+  "license": "MIT",
+  "keywords": ["agent-skills", "codex", "context-window", "skill-management"]
+}

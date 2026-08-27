@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible diagnosis, transaction, installation, or rollback problem.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: Do not include secrets, private skill content, or vulnerability details.
+  - type: input
+    id: version
+    attributes:
+      label: Skill Vault version
+    validations:
+      required: true
+  - type: dropdown
+    id: host
+    attributes:
+      label: Host
+      options: [Codex, Claude Code, CLI only]
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide minimal steps, expected behavior, and actual behavior with sensitive data removed.
+    validations:
+      required: true

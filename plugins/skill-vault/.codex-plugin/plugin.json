@@ -1,0 +1,24 @@
+{
+  "name": "skill-vault",
+  "version": "0.1.0",
+  "description": "Diagnose skill discovery context and manage user-approved reversible isolation.",
+  "author": {
+    "name": "Kai",
+    "url": "https://github.com/ssauma"
+  },
+  "homepage": "https://github.com/ssauma/skill-vault",
+  "repository": "https://github.com/ssauma/skill-vault",
+  "license": "MIT",
+  "keywords": ["agent-skills", "codex", "context-window", "skill-management"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Skill Vault",
+    "shortDescription": "Diagnose and vault approved Codex skills",
+    "longDescription": "Measure skill discovery context, explain when isolation is unnecessary, and apply fully reversible exact-name proxies only after user approval.",
+    "developerName": "Kai",
+    "category": "Development",
+    "capabilities": ["Skills"],
+    "websiteURL": "https://github.com/ssauma/skill-vault",
+    "defaultPrompt": "Run a read-only Skill Vault doctor report and explain the recommendations without changing any skills."
+  }
+}

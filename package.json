@@ -1,0 +1,17 @@
+{
+  "name": "skill-vault",
+  "version": "0.1.0",
+  "description": "Diagnose Codex skill discovery context and isolate approved standalone skills with reversible exact-name proxies.",
+  "type": "module",
+  "bin": { "skill-vault": "./bin/skill-vault.js" },
+  "files": ["bin/", "lib/", "scripts/", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "repository": { "type": "git", "url": "git+https://github.com/ssauma/skill-vault.git" },
+  "homepage": "https://github.com/ssauma/skill-vault#readme",
+  "bugs": "https://github.com/ssauma/skill-vault/issues",
+  "keywords": ["agent-skills", "codex", "context-window", "plugins", "skill-management"],
+  "author": "Kai",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}

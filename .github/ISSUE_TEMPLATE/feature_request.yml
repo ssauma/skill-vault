@@ -1,0 +1,22 @@
+name: Feature request
+description: Propose a focused context-diagnosis or reversible skill-management improvement.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What measurable context or skill-management problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety and rollback impact
+      description: Explain any effect on invocation names, unrelated skills, configuration, or rollback.
